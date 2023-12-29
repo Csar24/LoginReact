@@ -1,0 +1,101 @@
+.wrapper{
+    color:#ffff;
+    background:transparent;
+    border-radius: 10px;
+    border: 2px solid rgba(225, 225, 225, 0.2);
+    box-shadow: 0 0 10px rgb(0,0,0,.2);
+    backdrop-filter: blur(15px);
+}
+.wrapper form{
+    margin: 13px;
+    padding: 30px;
+    
+}
+.wrapper h1{
+    font-size: 3rem;
+}
+.wrapper .input-box{
+    position: relative;
+    margin: 10px;
+    height: 3rem;
+    padding-top: 8px;
+
+    
+
+}
+.wrapper .input-box input{
+    width:15rem;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(241, 231, 231, 0.849);
+    border-radius: 40px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 60px;
+    font-size: 1rem;
+
+}
+
+
+.wrapper .input-box .icon{
+    position: absolute;
+    font-size: 1rem;
+    right: 20px;
+    top: 60%;
+    transform: translateY(-50%);
+    
+}
+.wrapper .input-box input::placeholder{
+    color: #ffff;
+    font-size: 1rem;
+}
+.wrapper .remenber-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: 15px;
+
+}
+.wrapper .remenber-forgot label input{
+    margin-right: 3px;
+}
+.wrapper .remenber-forgot a{
+    color: white;
+    text-decoration: none;
+}
+.wrapper .remenber-forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper button{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: rgb(102, 96, 107);
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.wrapper button:hover{
+    background-color: rgb(119, 113, 124);
+    color: white;
+}
+ .wrapper .register-link p{
+    font-size: 14px;
+
+
+ }
+ .wrapper .register-link p a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+ }
+ .wrapper .register-link p a:hover{
+    text-decoration: underline;
+ }
